@@ -24,8 +24,6 @@ def print_title():
 def print_menu():
     for x in range(len(list_of_options)):
         print("{}. {}".format(x+1, list_of_options[x]))
-        print("----------------------------------------")
-        print("+++++++++++++++++++++++++++++++++++++++++")
     print()
 
 
