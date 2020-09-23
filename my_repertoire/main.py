@@ -20,7 +20,7 @@ def print_title():
     print()
 
 
-# Method to print the menu
+# Method to print the menu, the menu is specified in the constants
 def print_menu():
     for x in range(len(list_of_options)):
         print("{}. {}".format(x+1, list_of_options[x]))
