@@ -39,7 +39,9 @@ if __name__ == "__main__":
         users_option = input("Choose an option: ")
 
         if users_option == SEE_REPERTOIRE_OPTION:
-            print()
+            clear_screen()
+            print("Now you can see the repertoire")
+            input()
         elif users_option == ADD_PIECE_OPTION:
             print()
         elif users_option == DELETE_PIECE_OPTION:
